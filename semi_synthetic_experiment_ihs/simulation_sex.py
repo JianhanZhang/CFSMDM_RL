@@ -339,4 +339,4 @@ def run_exp(rep, env_name, z_label, start_seed=1, export=False, print_result=Tru
 
 
 
-df_n = run_exp(rep=50, env_name='m1', z_label='Sex', start_seed=1, export=False, path='./results/results_sex.csv')
+df_n = run_exp(rep=50, env_name='m1', z_label='Sex', start_seed=1, export=True, path='./results/results_sex.csv')
