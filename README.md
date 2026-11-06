@@ -27,7 +27,7 @@ python simulation_m1_N.py
 python simulation_m1_Z.py
 ```
 
-To produce the corresponding figure, run ``cfsmdm_code/numerical_experiment_new/plot_m1.R`` after running the above command.
+To produce the corresponding figure, run ``cfsmdm_code/numerical_experiment/plot_m1.R`` after running the above command.
 
 To run the experiment presented in Section L1 of the appendix, go to the directory ``cfsmdm_code/numerical_experiment`` and run this command:
 
@@ -54,7 +54,7 @@ python simulation_m1_T_add.py
 python simulation_m2_T_add.py
 ```
 
-After running these commands, add contents from ``numerical_experiment/results/results_m1_T`` to ``aux_numerical_experiment/results_aux/results_m1_T``, and add contents from ``numerical_experiment/results/results_m2_T`` to ``aux_numerical_experiment/results_aux/results_m2_T``.
+After running these commands, add contents from ``numerical_experiment/results/results_m1_T.csv`` to ``aux_numerical_experiment/results_aux/results_m1_T.csv``, and add contents from ``numerical_experiment/results/results_m2_T.csv`` to ``aux_numerical_experiment/results_aux/results_m2_T.csv``.
 
 To produce the corresponding figure, run ``cfsmdm_code/aux_numerical_experiment/plot_T.R`` after the steps above.
 
@@ -110,7 +110,7 @@ python simulation_m1_N_cql.py
 python simulation_m1_Z_cql.py
 ```
 
-This runs the experiments using CMDP 1. To produce the corresponding figure, run ``cfsmdm_code/numerical_experiment_new/plot_m1_cql.R`` after running the above command.
+This runs the experiments using CMDP 1. To produce the corresponding figure, run ``cfsmdm_code/additional_numerical_experiment/plot_m1_cql.R`` after running the above command.
 
 Then, run this command:
 
@@ -119,7 +119,7 @@ python simulation_m2_N_cql.py
 python simulation_m2_Z_cql.py
 ```
 
-This runs the experiments using CMDP2. To produce the corresponding figure, run ``cfsmdm_code/numerical_experiment/plot_m2_cql.R`` after running the above command.
+This runs the experiments using CMDP 2. To produce the corresponding figure, run ``cfsmdm_code/additional_numerical_experiment/plot_m2_cql.R`` after running the above command.
 
 ### Reproducing Additional Experiment on Sensitivity of CFSMDM to the Choice of Quantile Estimator
 
@@ -160,13 +160,10 @@ python run_rda_education.py
 To run the Intern Health Study real data analysis in Section M of the appendix, go to the directory ``cfsmdm_code/real_data_analysis_ihs`` and run this command:
 
 ```
-python run_rda_sex.py
-python run_rda_age.py
-python run_rda_ethnicity.py
-python run_rda_education.py
+python run_rda_mood_full_data.py
 ```
 
-Please note that the real data analysis code in this folder is not executable because the PowerED and Intern Health Study datasets used in the analysis are not included in the folder. However, interested readers can request access to the datasets following the instructions in the "Data and Code Availability Statement" section of the paper.
+Please note that the real data analysis code in these folders is not executable because the PowerED and Intern Health Study datasets used in the analysis are not included in the folder. However, interested readers can request access to the datasets following the instructions in the "Data and Code Availability Statement" section of the paper.
 
 ## Instructions for Reproducing the Semi-synthetic Experiments
 
