@@ -1,0 +1,11 @@
+gymnasium
+matplotlib
+numpy
+pandas
+patsy
+scikit_learn
+scipy
+sdv
+seaborn
+statsmodels
+torch
