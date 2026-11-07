@@ -74,7 +74,7 @@ To run the experiment presented in Section L4 of the appendix, go to the directo
 
 ```
 python simulation_m1_N_dp.py
-python simulatiob_m2_N_dp.py
+python simulation_m2_N_dp.py
 ```
 
 To produce the corresponding figure, run ``cfsmdm_code/additional_numerical_experiment/plot_dp.R`` after the steps above.
@@ -85,7 +85,7 @@ To run the experiment presented in Section L5 of the appendix, go to the directo
 
 ```
 python simulation_m4_single_scalar_noise.py
-python simulatiob_m5_single_scalar_noise.py
+python simulation_m5_single_scalar_noise.py
 ```
 
 To produce the corresponding figure, run ``cfsmdm_code/additional_numerical_experiment/plot_single_scalar_noise.R`` after the steps above.
