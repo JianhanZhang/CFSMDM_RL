@@ -300,4 +300,4 @@ def run_exp(rep, env_name, start_seed=1, export=False, print_result=True, path='
 
 
 
-df_n = run_exp(rep=50, env_name='m6', start_seed=1, export=True, path='./results/results_m5_strict_monotonicity.csv')
+df_n = run_exp(rep=50, env_name='m6', start_seed=1, export=True, path='./results/results_m6_strict_monotonicity.csv')
