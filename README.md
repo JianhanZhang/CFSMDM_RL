@@ -127,6 +127,7 @@ To run the experiment presented in Section L8 of the appendix, go to the directo
 
 ```
 python simulation_m1_qr_ablation.py
+python simulation_m2_qr_ablation.py
 ```
 
 ### Reproducing Additional Experiment on Sensitivity of CFSMDM to the Number of Quantiles in the Quantile Grid
