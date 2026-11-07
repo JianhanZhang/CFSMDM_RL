@@ -325,4 +325,4 @@ def run_exp(rep, env_name, start_seed=1, export=False, print_result=True, path='
 
 
 
-runtimes = run_exp(rep=40, env_name='m1', start_seed=11, export=True, path='./results/results_m1_profiling.csv')
+runtimes = run_exp(rep=50, env_name='m1', start_seed=11, export=True, path='./results/results_m1_profiling.csv')
